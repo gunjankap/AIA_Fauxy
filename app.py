@@ -93,4 +93,4 @@ THE FAUXY REPORT:"""
 # --- Run the App ---
 if __name__ == '__main__':
     # Use host='0.0.0.0' to make it accessible on your network if needed
-    app.run(debug=True, port=5000)
+    app.run(debug=True, port=5000, use_reloader=False)
